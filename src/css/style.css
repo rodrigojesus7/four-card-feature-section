@@ -77,9 +77,21 @@ main {
     margin-bottom: 1.6rem;
 }
 
+.main-info p{
+    max-width: 31.6rem;
+}
+
 .cards-section{
     display: grid;
+    
     gap: 3.2rem;
+    justify-content: center;
+    grid-template-areas: 
+        "supervisor"
+        "teamBuilder" 
+        "karma"
+        "calculator"
+    ;
 }
 
 .card {
@@ -89,6 +101,8 @@ main {
     border-radius: 0.8rem;
     border-top: solid 0.4rem;
     box-shadow: 0 1.5rem 3rem -1.1rem #83A6D280;
+    width: 31.4rem;
+    height: 25rem;
 }
 
 .card h3 {
@@ -105,17 +119,21 @@ main {
 }
 
 .supervisor{
+    grid-area: supervisor;
     border-color: var(--supervisor-color);
 }
 
 .team-builder{
+    grid-area: teamBuilder;
     border-color: var(--team-builder-color);
 }
 
 .karma{
+    grid-area: karma;
     border-color: var(--karma-color);
 }
 
 .calculator{
+    grid-area: calculator;
     border-color: var(--calculator-color);
 }

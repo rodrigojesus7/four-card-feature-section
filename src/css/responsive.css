@@ -1,0 +1,35 @@
+@media (min-width: 48rem) {
+
+    .main-info p{
+        max-width: 54rem;
+    }
+
+    .cards-section {
+        grid-template-areas:
+            "supervisor supervisor"
+            "teamBuilder karma"
+            "calculator calculator"
+        ;
+        place-items: center;
+    }
+
+
+}
+
+
+
+@media (min-width: 64rem) {
+    .cards-section {
+        grid-template-areas:
+            ". teamBuilder ."
+            "supervisor teamBuilder calculator"
+            "supervisor karma calculator"
+            ". karma ."
+        ;
+        place-items: center;
+    }
+    
+    .card{
+        width: 35rem;
+    }
+}
