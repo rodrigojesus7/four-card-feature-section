@@ -2,8 +2,7 @@
 
     main {
         gap: 7.4rem;
-        margin: 5.6rem 3rem;
-
+        margin-top: 8rem;
     }
 
     .main-info p {
@@ -24,6 +23,11 @@
 
 
 @media (min-width: 64rem) {
+
+    main {
+        margin-top: 10.2rem;
+    }
+
     .cards-section {
         grid-template-areas:
             ". teamBuilder ."
