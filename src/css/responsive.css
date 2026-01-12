@@ -1,5 +1,9 @@
 @media (min-width: 48rem) {
 
+    main {
+        gap: 7.4rem;
+    }
+
     .main-info p{
         max-width: 54rem;
     }
@@ -12,7 +16,6 @@
         ;
         place-items: center;
     }
-
 
 }
 
