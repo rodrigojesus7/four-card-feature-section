@@ -6,6 +6,7 @@
     --card-color: #FFFFFF;
     --text-color: #6A7178;
     --title-color: #4D4F62;
+    --background-color: #FAFAFA
 }
 
 .text-preset-1 {
@@ -58,6 +59,7 @@ body {
     align-items: center;
     min-height: 100dvh;
     min-width: 100dvw;
+    background-color: var(--background-color);
 }
 
 main {
@@ -103,6 +105,7 @@ main {
     box-shadow: 0 1.5rem 3rem -1.1rem #83A6D280;
     width: 31.4rem;
     min-height: 25rem;
+    background-color: var(--card-color);
 }
 
 .card h3 {
