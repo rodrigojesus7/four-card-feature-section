@@ -2,9 +2,11 @@
 
     main {
         gap: 7.4rem;
+        margin: 5.6rem 3rem;
+
     }
 
-    .main-info p{
+    .main-info p {
         max-width: 54rem;
     }
 
@@ -31,8 +33,14 @@
         ;
         place-items: center;
     }
-    
+
+    .card {
+        max-width: 35rem;
+    }
+}
+
+@media (min-width: 90rem){
     .card{
-        width: 35rem;
+        min-width: 35rem;
     }
 }
