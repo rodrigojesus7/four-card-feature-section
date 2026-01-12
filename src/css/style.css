@@ -77,13 +77,18 @@ main {
     margin-bottom: 1.6rem;
 }
 
+.cards-section{
+    display: grid;
+    gap: 3.2rem;
+}
+
 .card {
     display: flex;
     flex-direction: column;
     padding: 3.2rem;
     border-radius: 0.8rem;
     border-top: solid 0.4rem;
-    box-shadow: 0 1.5rem 3rem -1.1rem #83A6D2;
+    box-shadow: 0 1.5rem 3rem -1.1rem #83A6D280;
 }
 
 .card h3 {
